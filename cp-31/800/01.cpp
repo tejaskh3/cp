@@ -10,7 +10,6 @@ int main() {
         // if k == 1 array should always be sorted else ans will be no
         // in any of other cases ans will be yes
         string ans = "YES";
-        bool isSorted = true;
         int prev = -1;
         for(int i = 0; i < n; i++){
             int num;
